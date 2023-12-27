@@ -1,11 +1,13 @@
-import { Box, Container, Text, SimpleGrid, Divider } from "@chakra-ui/react"
+import { Box, Container, Text, SimpleGrid, Divider, useColorMode } from "@chakra-ui/react"
 import { Email } from "./Email"
 import { Social } from "./Social"
 import styles from "../styles/Contactme.module.css"
 
 export const Contactme = () => {
+const { colorMode } = useColorMode();
+
   return (
-    <Box className={styles.mainBox} id="contact">
+    <Box className={ colorMode === 'light' ? styles.mainBox1 : styles.mainBox2 } id="contact">
     <Container maxW={"7xl"}>
         <Text className={styles.contact}>Contact me</Text>
         <SimpleGrid columns={[1,null,2]}>

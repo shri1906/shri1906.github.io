@@ -55,9 +55,9 @@ const Navbar = () => {
       }
     }, 300);
   };
-
+//
   return (
-    <Box className={styles.main_navbar} id="NavbarId">
+    <Box className={colorMode === 'light' ? styles.main_navbar1 : styles.main_navbar2 } id="NavbarId">
       <Box>
         <Link to="#">
           <Image src={logo} width={"12rem"} height={"3.5rem"} ml={"1rem"} alt="Logo" />

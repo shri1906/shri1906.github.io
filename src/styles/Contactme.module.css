@@ -3,7 +3,11 @@
     font-size: 3rem;
     text-decoration: underline;
 }
-.mainBox{
+.mainBox1{
     margin-top: 4rem;
-    background-color: #355e3b ;
+    background-color: #355e3b;
+}
+.mainBox2{
+    margin-top: 4rem;
+    background-color: #132b33;
 }
