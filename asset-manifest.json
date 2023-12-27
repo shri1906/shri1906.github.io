@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d041ad12.css",
+    "main.js": "/static/js/main.854617aa.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/fundamental.PNG": "/static/media/fundamental.09885e28f5cd5a058895.PNG",
+    "static/media/Jcrew.PNG": "/static/media/Jcrew.7da3f201cbc5057e4414.PNG",
+    "static/media/time-camp.png": "/static/media/time-camp.e4a5aa94f2fd3bbea962.png",
+    "static/media/kimaye.PNG": "/static/media/kimaye.a1554af216d4f5840bd7.PNG",
+    "static/media/weather.PNG": "/static/media/weather.a6e30962a24f9ab1204f.PNG",
+    "static/media/sephora.PNG": "/static/media/sephora.bc150152a5fecd1a80e9.PNG",
+    "static/media/mongodb.png": "/static/media/mongodb.5b3b1548fc3d3ab2bcbf.png",
+    "static/media/profile.png": "/static/media/profile.4c5befa08a8c925ddd32.png",
+    "static/media/React-icon.svg.png": "/static/media/React-icon.svg.81ed438b18e24116794d.png",
+    "static/media/Shivam-Maurya-Resume.pdf": "/static/media/Shivam-Maurya-Resume.b6a193cd018661450025.pdf",
+    "static/media/avatar.png": "/static/media/avatar.d9c0ed018ca65aaa0346.png",
+    "static/media/php.png": "/static/media/php.5d694883c0d151aef2ec.png",
+    "static/media/json.png": "/static/media/json.aede29f1285900b31ef1.png",
+    "static/media/express.png": "/static/media/express.cca64e0f360897258ecb.png",
+    "static/media/logo.png": "/static/media/logo.cb24a2d9608b8372cf8c.png",
+    "static/media/dsa.png": "/static/media/dsa.0735e9298636d7e0059d.png",
+    "static/media/GitHub-Mark.png": "/static/media/GitHub-Mark.553c66159c5672f25df6.png",
+    "static/media/CSS3_logo.svg.png": "/static/media/CSS3_logo.svg.1a57e67ac1fd2ea84d64.png",
+    "static/media/JavaScript-logo.png": "/static/media/JavaScript-logo.b14eed1052a420daf9f3.png",
+    "static/media/postman.png": "/static/media/postman.1ba3cc6686c253bd999d.png",
+    "static/media/nodejs-logo.png": "/static/media/nodejs-logo.8e341cc00e4ec40c6a27.png",
+    "static/media/vs code.png": "/static/media/vs code.aa53b2acfb930d20f7ef.png",
+    "static/media/html.png": "/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/mysql.png": "/static/media/mysql.8ca52c25afffafaa83f1.png",
+    "static/media/chakra.webp": "/static/media/chakra.180ec134742b4b54c994.webp",
+    "static/media/typescript-1174965.webp": "/static/media/typescript-1174965.c3bd19569a9c73bb54ba.webp",
+    "index.html": "/index.html",
+    "main.d041ad12.css.map": "/static/css/main.d041ad12.css.map",
+    "main.854617aa.js.map": "/static/js/main.854617aa.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d041ad12.css",
+    "static/js/main.854617aa.js"
+  ]
+}
