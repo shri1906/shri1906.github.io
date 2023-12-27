@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc1b20a.css",
-    "main.js": "/static/js/main.44adae4f.js",
+    "main.css": "/static/css/main.ce9d502c.css",
+    "main.js": "/static/js/main.85fd7069.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/fundamental.PNG": "/static/media/fundamental.09885e28f5cd5a058895.PNG",
     "static/media/Jcrew.PNG": "/static/media/Jcrew.7da3f201cbc5057e4414.PNG",
@@ -15,9 +15,9 @@
     "static/media/Shivam-Maurya-Resume.pdf": "/static/media/Shivam-Maurya-Resume.b6a193cd018661450025.pdf",
     "static/media/avatar.png": "/static/media/avatar.d9c0ed018ca65aaa0346.png",
     "static/media/php.png": "/static/media/php.5d694883c0d151aef2ec.png",
+    "static/media/logo.png": "/static/media/logo.90ff68628b34b2429e94.png",
     "static/media/json.png": "/static/media/json.aede29f1285900b31ef1.png",
     "static/media/express.png": "/static/media/express.cca64e0f360897258ecb.png",
-    "static/media/logo.png": "/static/media/logo.cb24a2d9608b8372cf8c.png",
     "static/media/dsa.png": "/static/media/dsa.0735e9298636d7e0059d.png",
     "static/media/GitHub-Mark.png": "/static/media/GitHub-Mark.553c66159c5672f25df6.png",
     "static/media/CSS3_logo.svg.png": "/static/media/CSS3_logo.svg.1a57e67ac1fd2ea84d64.png",
@@ -31,12 +31,12 @@
     "static/media/chakra.webp": "/static/media/chakra.180ec134742b4b54c994.webp",
     "static/media/typescript-1174965.webp": "/static/media/typescript-1174965.c3bd19569a9c73bb54ba.webp",
     "index.html": "/index.html",
-    "main.dbc1b20a.css.map": "/static/css/main.dbc1b20a.css.map",
-    "main.44adae4f.js.map": "/static/js/main.44adae4f.js.map",
+    "main.ce9d502c.css.map": "/static/css/main.ce9d502c.css.map",
+    "main.85fd7069.js.map": "/static/js/main.85fd7069.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbc1b20a.css",
-    "static/js/main.44adae4f.js"
+    "static/css/main.ce9d502c.css",
+    "static/js/main.85fd7069.js"
   ]
 }
