@@ -64,7 +64,7 @@ const Navbar = () => {
         </Link>
       </Box>
       <Box>
-        <Flex className={styles.nav_box2} display={{ base: 'none', md: 'flex' }}>
+        <Flex className={styles.nav_box2} display={{ base: 'none', md: 'none', lg:'flex' }}>
           {links?.map((link) => (
             <Link
               key={link.to}
@@ -87,7 +87,8 @@ const Navbar = () => {
         </Flex>
         <IconButton
           onClick={setFlag.on}
-          display={{ base: 'block', md: 'none' }}
+          bg={colorMode === 'light' ? "#447a4c" : "#091f26"}
+          display={{ base: 'block', md: 'block',lg:'none' }}
           size={'lg'}
           fontSize={"1.5rem"}
           icon={<HamburgerIcon color={"whitesmoke"} />}
@@ -95,10 +96,11 @@ const Navbar = () => {
       </Box>
       {flag && <Box
          className={colorMode === 'light' ? styles.hamburger_box1 : styles.hamburger_box2 }
-        display={{ base: 'block', md: 'none' }}>
+        display={{ base: 'block', md: 'block',lg:'none' }}>
         <Flex>
           <Box pos='fixed' top='2rem' right='1rem'>
             <IconButton
+              bg={colorMode === 'light' ? "#447a4c" : "#091f26"}
               onClick={setFlag.off}
               size={'lg'}
               icon={<CloseIcon color={"whitesmoke"} />}
