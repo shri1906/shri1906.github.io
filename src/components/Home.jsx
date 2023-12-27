@@ -15,8 +15,8 @@ export const Home = () => {
             </Box>
             <Box className={styles.headingBox}>
                 <Text  className={styles.welcome}>Hey, I am Shivam Maurya,</Text>
-                <Text fontSize="1.7rem" color={'#01411C'}>( Full-Stack Web Developer )</Text>
-                <Text color={'#355e3b'} fontSize={'1.3rem'}>A computer enthusiast who loves creating websites and exploring emerging web technologies.</Text>
+                <Text fontSize="1.7rem" >( Full-Stack Web Developer )</Text>
+                <Text fontSize={'1.3rem'}>A computer enthusiast who loves creating websites and exploring emerging web technologies.</Text>
                 <Box className={styles.btn_box}>
                 <a  href={"https://drive.google.com/file/d/1xqGpp6pdVQCrkOKQI14I0549FJzz_4Hi/view?usp=sharing"} target ="blank" >
                     <button className={styles.prevBtn}><VscPreview />Preview</button>

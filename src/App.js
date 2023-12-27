@@ -6,10 +6,14 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import GithubCalendar from './components/GithubCalendar';
 import { Contactme } from './components/Contactme';
+import { useColorMode } from '@chakra-ui/react';
 
 function App() {
+
+  const { colorMode } = useColorMode();
+  
   return (
-    <div className="App">
+    <div  className={colorMode === 'light' ? 'light-mode' : 'dark-mode'}>
       <Navbar />
       <Home />
       <About />

@@ -27,15 +27,15 @@ export const Email = () => {
         <form ref={form} onSubmit={sendEmail}>
             <Box className={styles.formBox}>
                 <Text className={styles.label}>Name:</Text>
-                <input bg='white' className={styles.input} width={"auto"} type="text" name={"user_name"} />
+                <input className={styles.input} width={"auto"} type="text" name={"user_name"} />
             </Box>
             <Box className={styles.formBox}>
                 <Text className={styles.label}>Email:</Text>
-                <input bg='white' className={styles.input} width={"auto"} type="email" name={"user_email"} />
+                <input className={styles.input} width={"auto"} type="email" name={"user_email"} />
             </Box>
             <Box className={styles.formBox}>
                 <Text className={styles.label}>Message:</Text>
-                <textarea bg='white' width={"auto"} name={"message"} className={styles.textArea} />
+                <textarea width={"auto"} name={"message"} className={styles.textArea} />
             </Box>
             <br />
             <Input className={styles.btn} width={"auto"} type="submit" value="Send Mail" />

@@ -105,7 +105,7 @@ const Skills =()=>{
                     skills.map((s)=>(
                         <Box className={styles.logo_img_box} key={s.name}>
                             <Image className={styles.img} src={s.icon} alt="logo"/>
-                            <Text mt="0.5rem" fontSize={'1.2rem'} color={"#355e3b"}  >{s.name}</Text>
+                            <Text mt="0.5rem" fontSize={'1.2rem'} >{s.name}</Text>
                         </Box>
                     ))
                 }
