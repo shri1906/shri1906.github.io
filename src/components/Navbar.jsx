@@ -86,7 +86,6 @@ const Navbar = () => {
             </Switch>
         </Flex>
         <IconButton
-          bgColor={"#355e3b"}
           onClick={setFlag.on}
           display={{ base: 'block', md: 'none' }}
           size={'lg'}
@@ -95,12 +94,11 @@ const Navbar = () => {
         />
       </Box>
       {flag && <Box
-        className={styles.hamburger_box}
+         className={colorMode === 'light' ? styles.hamburger_box1 : styles.hamburger_box2 }
         display={{ base: 'block', md: 'none' }}>
         <Flex>
           <Box pos='fixed' top='2rem' right='1rem'>
             <IconButton
-              bgColor={"#355e3b"}
               onClick={setFlag.off}
               size={'lg'}
               icon={<CloseIcon color={"whitesmoke"} />}
