@@ -1,0 +1,27 @@
+.githubMain{
+    padding-top: 1rem;
+}
+.mainBox{
+    margin: auto;
+    padding: 1rem;
+    width: auto;
+    margin-bottom: 1rem;
+}
+.para{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #01411C;
+    text-decoration: underline;
+}
+.stats{
+    margin: auto;
+    padding: 2rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.statsImg{
+    transition: transform 0.6s ease-in-out;
+}
+.statsImg:hover{
+    transform: scale(1.2);
+}

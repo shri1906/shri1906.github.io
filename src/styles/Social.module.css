@@ -1,0 +1,18 @@
+.container{
+    color: white;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.box{
+    margin-top: 1rem;
+    display: flex;
+    gap:3rem;
+    font-size: 3rem;
+    justify-content: center;
+}
+.socialLogo{
+    transition: transform 0.6s ease-in-out;
+}
+.socialLogo:hover{
+    transform: scale(1.2);
+}

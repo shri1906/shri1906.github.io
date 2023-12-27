@@ -1,0 +1,40 @@
+.label{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.formBox{
+    display: flex;
+    gap:3rem;
+    padding-top: 1rem;
+    align-items: center;
+}
+.btn{
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    margin: auto;
+    transition: transform 0.8s ease-in-out;
+}
+.btn:hover{
+    transform: rotate(10deg); 
+}
+.input{
+    font-weight: 500;
+    height: 2rem;
+    width: 15.5rem;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-left: 1.2rem;
+}
+
+.textArea{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.input:focus, .textArea:focus{
+    outline: none;
+}
