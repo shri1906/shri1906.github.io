@@ -5,12 +5,10 @@
     margin: auto;
     padding: 1rem;
     width: auto;
-    margin-bottom: 1rem;
 }
 .para{
     font-size: 3rem;
     margin-bottom: 1rem;
-    /* color: #01411C; */
     text-decoration: underline;
 }
 .stats{
