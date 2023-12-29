@@ -100,7 +100,7 @@ const Skills =()=>{
         <Container maxW={'7xl'} id="skills" className={styles.skillMain}>
             <Text size={"xl"} className={styles.head}>Tech-stacks Summary</Text>
             <Text className={styles.para}>These are some tech stacks and tools, which I have utilized in my projects.</Text>
-            <SimpleGrid className={styles.grid} columns={[2,null,3,6]} spacing={15}>
+            <SimpleGrid p={['auto','auto','auto','3rem']} columns={[2,null,3,6]} spacing={15}>
                 {
                     skills.map((s)=>(
                         <Box className={styles.logo_img_box} key={s.name}>

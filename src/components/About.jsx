@@ -13,7 +13,7 @@ const About =()=>{
                     I am dedicated to delivering high-quality code that meets project requirements and exceeds expectations, while also prioritizing user experience and accessibility.
                     </Text>
                 </Box>
-                <Box className={styles.imageBox}>
+                <Box className={styles.imageBox} h={['auto','auto','auto','25rem']}>
                     <Image className={styles.img} src={profile} alt="avatar"/>
                 </Box>
             </SimpleGrid>
