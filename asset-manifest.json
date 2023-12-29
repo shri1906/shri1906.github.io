@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35243798.css",
-    "main.js": "/static/js/main.ba624de1.js",
+    "main.css": "/static/css/main.a64c1eb4.css",
+    "main.js": "/static/js/main.cc72f5f5.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/fundamental.PNG": "/static/media/fundamental.09885e28f5cd5a058895.PNG",
     "static/media/Jcrew.PNG": "/static/media/Jcrew.7da3f201cbc5057e4414.PNG",
@@ -13,9 +13,9 @@
     "static/media/mongodb.png": "/static/media/mongodb.5b3b1548fc3d3ab2bcbf.png",
     "static/media/React-icon.svg.png": "/static/media/React-icon.svg.81ed438b18e24116794d.png",
     "static/media/Shivam-Maurya-Resume.pdf": "/static/media/Shivam-Maurya-Resume.b6a193cd018661450025.pdf",
-    "static/media/avatar.png": "/static/media/avatar.d9c0ed018ca65aaa0346.png",
     "static/media/php.png": "/static/media/php.5d694883c0d151aef2ec.png",
     "static/media/logo.png": "/static/media/logo.90ff68628b34b2429e94.png",
+    "static/media/avatar.png": "/static/media/avatar.0fe9f7131d304eae5443.png",
     "static/media/json.png": "/static/media/json.aede29f1285900b31ef1.png",
     "static/media/express.png": "/static/media/express.cca64e0f360897258ecb.png",
     "static/media/dsa.png": "/static/media/dsa.0735e9298636d7e0059d.png",
@@ -31,12 +31,12 @@
     "static/media/chakra.webp": "/static/media/chakra.180ec134742b4b54c994.webp",
     "static/media/typescript-1174965.webp": "/static/media/typescript-1174965.c3bd19569a9c73bb54ba.webp",
     "index.html": "/index.html",
-    "main.35243798.css.map": "/static/css/main.35243798.css.map",
-    "main.ba624de1.js.map": "/static/js/main.ba624de1.js.map",
+    "main.a64c1eb4.css.map": "/static/css/main.a64c1eb4.css.map",
+    "main.cc72f5f5.js.map": "/static/js/main.cc72f5f5.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35243798.css",
-    "static/js/main.ba624de1.js"
+    "static/css/main.a64c1eb4.css",
+    "static/js/main.cc72f5f5.js"
   ]
 }
