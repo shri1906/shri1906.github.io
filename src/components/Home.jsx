@@ -14,7 +14,7 @@ export const Home = () => {
                 <Image className={styles.img} src={avatar} alt="avatar"/>
             </Box>
             <Box className={styles.headingBox}>
-                <Text  className={styles.welcome}>Hey, I am Shivam Maurya,</Text>
+                <Text  className={styles.welcome}>Hey, I am Shivam Maurya</Text>
                 <Text fontSize="1.7rem" >( Full-Stack Web Developer )</Text>
                 <Text fontSize={'1.3rem'}>A computer enthusiast who loves creating websites and exploring emerging web technologies.</Text>
                 <Box className={styles.btn_box}>
