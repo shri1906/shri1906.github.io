@@ -80,7 +80,7 @@ const Projects =()=>{
     
     return(
         <Container maxW={'7xl'} className={styles.p_main} id="projects">
-            <Text className={styles.header} size={"xl"}>Projects</Text>
+            <Text className={styles.header} size={"xl"}>PROJECTS</Text>
             <Text className={styles.toptext}>Here are some interesting projects, in which I have contributed.</Text>
             <SimpleGrid m="0rem" columns={[1,null,2,3]} spacing={6} >
                 {

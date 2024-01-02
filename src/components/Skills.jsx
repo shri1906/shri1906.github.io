@@ -98,7 +98,7 @@ const Skills =()=>{
     
     return (
         <Container maxW={'7xl'} id="skills" className={styles.skillMain}>
-            <Text size={"xl"} className={styles.head}>Tech-stacks Summary</Text>
+            <Text size={"xl"} className={styles.head}>TECHNICALSKILLS</Text>
             <Text className={styles.para}>These are some tech stacks and tools, which I have utilized in my projects.</Text>
             <SimpleGrid p={['auto','auto','auto','3rem']} columns={[2,null,3,6]} spacing={15}>
                 {

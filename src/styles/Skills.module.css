@@ -10,11 +10,11 @@
     overflow: hidden;
 }
 .logo_img_box {
-    box-shadow: inset 0 0 100px rgba(255, 255, 255, .5);
+    /* box-shadow: inset 0 0 100px rgba(255, 255, 255, .5); */
     transition: transform 0.3s ease-in-out; 
 }
 .logo_img_box:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     cursor: grab;
 }
 .img{

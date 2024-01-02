@@ -4,7 +4,7 @@ import profile from "../sources/profile.png";
 const About =()=>{
     return(
         <Container maxW={'7xl'} className={styles.mainBox} id="about">
-             <Text size={"xl"} className={styles.head}>About me</Text>
+             <Text size={"xl"} className={styles.head}>ABOUT ME</Text>
             <SimpleGrid columns={[1,null,1,2]} spacing="1rem" pt={"3rem"}>
                 <Box className={styles.headingBox}>
                     <Text size={"md"} className={styles.para}>Hello! My name is Shivam Maurya, graduated from Graphic Era University in MSc.IT and I am a passionate full-stack developer.

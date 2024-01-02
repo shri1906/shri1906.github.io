@@ -22,7 +22,7 @@ const GithubCalendar =()=>{
     //   };
     return (
     <Container maxW={'7xl'} className={styles.githubMain} id="github"  >
-        <Text className={styles.para}>GitHub Calendar</Text>
+        <Text className={styles.para}>GitHub CALENDAR</Text>
         <Box className={styles.mainBox} ml={[null,null,null,'2rem']}>
             <GitHubCalendar 
                 username="shri1906" 
