@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.bd8ef17b.css",
-    "main.js": "/static/js/main.70554112.js",
+    "main.js": "/static/js/main.e4473439.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/fundamental.PNG": "/static/media/fundamental.09885e28f5cd5a058895.PNG",
     "static/media/Jcrew.PNG": "/static/media/Jcrew.7da3f201cbc5057e4414.PNG",
     "static/media/time-camp.png": "/static/media/time-camp.e4a5aa94f2fd3bbea962.png",
     "static/media/kimaye.PNG": "/static/media/kimaye.a1554af216d4f5840bd7.PNG",
-    "static/media/profile.png": "/static/media/profile.44315b7428ff4225260e.png",
     "static/media/weather.PNG": "/static/media/weather.a6e30962a24f9ab1204f.PNG",
     "static/media/sephora.PNG": "/static/media/sephora.bc150152a5fecd1a80e9.PNG",
     "static/media/mongodb.png": "/static/media/mongodb.5b3b1548fc3d3ab2bcbf.png",
+    "static/media/profile.png": "/static/media/profile.18d3e57d6d5fba29cd2d.png",
     "static/media/React-icon.svg.png": "/static/media/React-icon.svg.81ed438b18e24116794d.png",
     "static/media/Shivam-Maurya-Resume.pdf": "/static/media/Shivam-Maurya-Resume.b6a193cd018661450025.pdf",
     "static/media/php.png": "/static/media/php.5d694883c0d151aef2ec.png",
@@ -32,11 +32,11 @@
     "static/media/typescript-1174965.webp": "/static/media/typescript-1174965.c3bd19569a9c73bb54ba.webp",
     "index.html": "/index.html",
     "main.bd8ef17b.css.map": "/static/css/main.bd8ef17b.css.map",
-    "main.70554112.js.map": "/static/js/main.70554112.js.map",
+    "main.e4473439.js.map": "/static/js/main.e4473439.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd8ef17b.css",
-    "static/js/main.70554112.js"
+    "static/js/main.e4473439.js"
   ]
 }
