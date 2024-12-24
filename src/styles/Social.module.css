@@ -6,8 +6,8 @@
 .box{
     margin-top: 1rem;
     display: flex;
-    gap:3rem;
-    font-size: 3rem;
+    gap:1.5rem;
+    font-size: 2rem;
     justify-content: center;
 }
 .socialLogo{

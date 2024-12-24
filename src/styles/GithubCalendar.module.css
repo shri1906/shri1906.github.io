@@ -7,9 +7,9 @@
     width: auto;
 }
 .para{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
-    text-decoration: underline;
+    font-weight: bold;
 }
 .stats{
     margin: auto;

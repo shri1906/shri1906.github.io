@@ -78,7 +78,6 @@ const Navbar = () => {
           ))}
             <Switch
               isChecked={colorMode === 'dark'}
-              mt="0.3rem"
               onChange={handleToggle}
               colorScheme='red'
             >
@@ -118,7 +117,6 @@ const Navbar = () => {
               </FormLabel>
               <Switch
                 isChecked={colorMode === 'dark'}
-                mt="0.5rem"
                 onChange={handleToggle}
               >
               <Icon as={colorMode === 'dark' ? FaMoon : FaSun} boxSize={5} />

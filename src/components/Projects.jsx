@@ -5,7 +5,8 @@ import kimaye from "../sources/kimaye.PNG";
 import sephora from "../sources/sephora.PNG";
 import fundamental from "../sources/fundamental.PNG";
 import timecamp from "../sources/time-camp.png";
-import weather from "../sources/weather.PNG";
+import cors from "../sources/cors.PNG"
+
 import {FaGithub,FaExternalLinkAlt} from "react-icons/fa";
 
 const Projects =()=>{
@@ -55,37 +56,38 @@ const Projects =()=>{
             git_link: "https://github.com/VishalBhuse/Fundamental.in"
         },
         {
-            p_name: "Weather-app",
-            details: "This website can be use for fetch real-time weather information.",
-            techs: "Tech-stacks: ReactJs, Tailwind CSS",
-            type: "Individaul Project",
-            responsibity: "Area of Responsibilty: All functionalities",
-            duration: "Duration: 03 days",
-            image: weather,
-            project_link: "https://weather-app-drab-omega-45.vercel.app/",
-            git_link: "https://github.com/shivam0626/weather-app"
-        },
-        {
             p_name: "Kimaye.com Clone",
             details: "A Grocery website where fresh fruits are available.",
             techs: "Tech-stacks: HTML, CSS, JavaScript",
-            type: "Individaul Project",
+            type: "Individual Project",
             responsibity: "Area of Responsibilty: All functionalities",
             duration: "Duration: 05 days",
             image: kimaye,
             project_link: "https://shivam0626.github.io/Kimaye.com-Clone/",
             git_link: "https://github.com/shivam0626/Kimaye.com-Clone"
         },
+        {
+            p_name: "CORS Registration Portal",
+            details: "A Registration portal of user of Survey of India where users can buy subscriptions of real-time survey data.",
+            techs: "Tech-stacks: HTML, CSS, JavaScript, PHP, MySql",
+            type: "Collaborative Project",
+            responsibity: "Area of Responsibilty: All functionalities",
+            duration: "Duration: 2 months",
+            image: cors,
+            project_link: "https://cors.surveyofindia.gov.in/",
+            git_link: ""
+        },
+        
     ]
     
     return(
         <Container maxW={'7xl'} className={styles.p_main} id="projects">
-            <Text className={styles.header} size={"xl"}>PROJECTS</Text>
+            <Text className={styles.header} size={"xl"}>Projects</Text>
             <Text className={styles.toptext}>Here are some interesting projects, in which I have contributed.</Text>
             <SimpleGrid m="0rem" columns={[1,null,2,3]} spacing={6} >
                 {
-                data.map((d)=>(
-                    <Box className={styles.p_box}>
+                data.map((d,idx)=>(
+                    <Box className={styles.p_box} key={idx}>
                         <Image className={styles.p_img} src={d.image} alt="p_img" />
                         <Text className={styles.project_title} size={"md"}>{d.p_name}</Text>
                         <Text className={styles.text}>{d.details}</Text>

@@ -9,7 +9,7 @@ const { colorMode } = useColorMode();
   return (
     <Box className={ colorMode === 'light' ? styles.mainBox1 : styles.mainBox2 } id="contact">
     <Container maxW={"7xl"}>
-        <Text className={styles.contact}>CONTACT ME</Text>
+        <Text className={styles.contact}>Contact Me</Text>
         <SimpleGrid columns={[1,null,2]}>
             <Social />
             <Email />
