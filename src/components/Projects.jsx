@@ -12,6 +12,17 @@ import {FaGithub,FaExternalLinkAlt} from "react-icons/fa";
 const Projects =()=>{
     const data = [
         {
+            p_name: "CORS Registration Portal",
+            details: "A Registration portal of user of Survey of India where users can buy subscriptions of real-time survey data.",
+            techs: "Tech-stacks: HTML, CSS, JavaScript, PHP, MySql",
+            type: "Collaborative Project",
+            responsibity: "Area of Responsibilty: All functionalities",
+            duration: "Duration: 2 months",
+            image: cors,
+            project_link: "https://cors.surveyofindia.gov.in/",
+            git_link: ""
+        },
+        {
             p_name: "Sephora Clone",
             details: "Sephora is a global beuty chain that offers a wide range of classic and emerging brands.",
             techs: "Tech-stacks: ReactJs, CSS, Redux, Chakra UI, Firebase, MongoDB",
@@ -66,18 +77,7 @@ const Projects =()=>{
             project_link: "https://shivam0626.github.io/Kimaye.com-Clone/",
             git_link: "https://github.com/shivam0626/Kimaye.com-Clone"
         },
-        {
-            p_name: "CORS Registration Portal",
-            details: "A Registration portal of user of Survey of India where users can buy subscriptions of real-time survey data.",
-            techs: "Tech-stacks: HTML, CSS, JavaScript, PHP, MySql",
-            type: "Collaborative Project",
-            responsibity: "Area of Responsibilty: All functionalities",
-            duration: "Duration: 2 months",
-            image: cors,
-            project_link: "https://cors.surveyofindia.gov.in/",
-            git_link: ""
-        },
-        
+          
     ]
     
     return(
