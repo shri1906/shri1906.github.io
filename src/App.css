@@ -3,6 +3,7 @@
   font-family: "Alegreya", serif;
   background: radial-gradient(circle, rgb(241, 183, 182) 0%, rgba(240,240,240,1) 48%, rgba(161,211,221,1) 100%);
   color: #355e3b;
+  font-weight: 500;
 }
 .dark-mode{
   text-align: center;
