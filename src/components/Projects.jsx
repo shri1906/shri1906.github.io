@@ -1,11 +1,12 @@
 import { Box, Container, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import styles from "../styles/Projects.module.css";
 import jcrew from "../sources/Jcrew.PNG";
-import kimaye from "../sources/kimaye.PNG";
 import sephora from "../sources/sephora.PNG";
-import fundamental from "../sources/fundamental.PNG";
 import timecamp from "../sources/time-camp.png";
 import cors from "../sources/cors.PNG"
+import ems from "../sources/ems.PNG"
+import art from "../sources/art-gallery.PNG"
+import ramit from "../sources/ramIT.PNG"
 
 import {FaGithub,FaExternalLinkAlt} from "react-icons/fa";
 
@@ -21,6 +22,39 @@ const Projects =()=>{
             image: cors,
             project_link: "https://cors.surveyofindia.gov.in/",
             git_link: ""
+        },
+        {
+            p_name: "Employee Management System",
+            details: "A web application to manage employee data, including CRUD operations.", 
+            techs: "Tech-stacks: ReactJs, ExpressJs, NodeJs, MongoDB, Tailwind CSS",
+            type: "Individual Project",
+            responsibity: "Area of Responsibilty: All functionalities",
+            duration: "Duration: 1 month",
+            image: ems,
+            project_link: "https://ems-shri1906.vercel.app/login",
+            git_link: "https://github.com/shri1906/EMS-MERN"
+        },
+        {
+            p_name: "Art Gallery",
+            details: "An Art Gallery website to showcase various art pieces and their details.",
+            techs: "Tech-stacks: ReactJs, Tailwind CSS",
+            type: "Individual Project",
+            responsibity: "Area of Responsibilty: All functionalities",
+            duration: "Duration: 1 week",
+            image: art,
+            project_link: "https://brush-and-beyond.vercel.app/",
+            git_link: "https://github.com/shri1906/art-gallery"
+        },
+        {
+            p_name: "IT Solution",
+            details: "An IT Solution website to provide various IT services.",
+            techs: "Tech-stacks: ReactJs, Bootstrap CSS",
+            type: "Individual Project",
+            responsibity: "Area of Responsibilty: All functionalities",
+            duration: "Duration: 1 week",
+            image: ramit,
+            project_link: "https://ram-it-solutions.vercel.app/",
+            git_link: "https://github.com/shri1906/ram-it-solutions"
         },
         {
             p_name: "Sephora Clone",
@@ -43,41 +77,7 @@ const Projects =()=>{
             image: timecamp,
             project_link: "https://timecampclone-cw.netlify.app/",
             git_link: "https://github.com/ssksds/Time-Camp-Clone"
-        },
-        {
-            p_name: "JCrew Clone",
-            details: "An E-commerce website for clothings, footwears and accessories.",
-            techs: "Tech-stacks: HTML, CSS, JavaScript",
-            type: "Group Project",
-            responsibity: "Area of Responsibilty: Signin & Signup Page",
-            duration: "Duration: 05 days",
-            image: jcrew,
-            project_link: "https://jcrew-clone-0626.netlify.app",
-            git_link: "https://github.com/Raghav435/J.Crew_Clone"
-        },
-        {
-            p_name: "Fundamental.in Clone",
-            details: "An E-commerce website for electronics and gadgets.",
-            techs: "Tech-stacks: HTML, CSS, JavaScript",
-            type: "Group Project",
-            responsibity: "Area of Responsibilty: Products Page",
-            duration: "Duration: 05 days",
-            image: fundamental,
-            project_link: "https://fundamnetal-in.netlify.app/",
-            git_link: "https://github.com/VishalBhuse/Fundamental.in"
-        },
-        {
-            p_name: "Kimaye.com Clone",
-            details: "A Grocery website where fresh fruits are available.",
-            techs: "Tech-stacks: HTML, CSS, JavaScript",
-            type: "Individual Project",
-            responsibity: "Area of Responsibilty: All functionalities",
-            duration: "Duration: 05 days",
-            image: kimaye,
-            project_link: "https://shivam0626.github.io/Kimaye.com-Clone/",
-            git_link: "https://github.com/shivam0626/Kimaye.com-Clone"
-        },
-          
+        },   
     ]
     
     return(
