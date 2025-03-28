@@ -1,6 +1,5 @@
 import { Box, Container, Image, SimpleGrid, Text } from "@chakra-ui/react";
 import styles from "../styles/Projects.module.css";
-import jcrew from "../sources/Jcrew.PNG";
 import sephora from "../sources/sephora.PNG";
 import timecamp from "../sources/time-camp.png";
 import cors from "../sources/cors.PNG"
